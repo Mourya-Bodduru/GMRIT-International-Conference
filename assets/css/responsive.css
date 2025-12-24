@@ -1,0 +1,260 @@
+@media only screen and (max-width:1800px) {
+    .navbar-default .navbar-nav>li>a {
+        padding: 15px 15px;
+    }
+    .navbar-nav>li {
+        margin-left: 5px;
+    }
+}
+
+@media(max-width:1599px) {
+    .navbar-default .navbar-nav>li>a {
+        padding: 15px 9px;
+    }
+    .main-heading {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:1365px) {
+    .navbar-default .navbar-nav>li>a {
+        letter-spacing: -1px;
+        font-size: 15px;
+    }
+    /*.about-cu-cont{ width: 503px;}*/
+    .equal-height-2 {
+        height: 650px;
+    }
+    .navbar-nav>li {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .navbar-header {
+        margin: 0 !important
+    }
+    .navbar-toggle {
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-default .navbar-toggle {
+        border: 0;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background: transparent;
+    }
+    .navbar-toggle .icon-bar {
+        width: 28px;
+        border-radius: 0;
+        background-color: #000 !important;
+    }
+    .navbar-toggle .icon-bar+.icon-bar {
+        margin-top: 6px;
+    }
+    /* .about-cu-cont{ width: 400px;} */
+    .equal-height {
+        height: 700px;
+    }
+    .nav .open>a,
+    .nav .open>a:focus,
+    .nav .open>a:hover {
+        background-color: transparent;
+        border-color: transparent;
+    }
+    .navbar-nav>li>.dropdown-menu {
+        border-radius: 0;
+        border: none;
+        width: 100%;
+        padding: 0 !important;
+        background-color: #fff !important;
+    }
+    .dropdown-menu>li>a {
+        padding: 7px 15px !important;
+    }
+    .nav>li>a:focus,
+    .nav>li>a:hover {
+        text-decoration: none;
+        background-color: transparent;
+        color: antiquewhite;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .banner-content {
+        width: 700px;
+    }
+    .equal-height,
+    .equal-height-2 {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .about-cu-cont {
+        width: 100%;
+        padding: 30px 0;
+        position: static;
+        transform: none;
+    }
+    .top-heading p br {
+        display: none;
+    }
+    .inner-banner {
+        background: rgba(47, 179, 217, 1) !important;
+        background: -moz-linear-gradient(left, rgb(22 93 187) 0%, rgb(17 181 181) 100%) !important;
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(47, 179, 217, 1)), color-stop(100%, rgba(17, 76, 181, 1))) !important;
+        background: -webkit-linear-gradient(left, rgb(22 93 187) 0%, rgb(17 181 181) 100%) !important;
+        background: -o-linear-gradient(left, rgb(22 93 187) 0%, rgb(17 181 181) 100%) !important;
+        background: -ms-linear-gradient(left, rgb(22 93 187) 0%, rgb(17 181 181) 100%) !important;
+        background: linear-gradient(to right, rgb(22 93 187) 0%, rgb(17 181 181) 100%) !important;
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2fb3d9', endColorstr='#114cb5', GradientType=1) !important;
+    }
+    .inner-banner-content h1 {
+        font-size: 38px;
+        color: #fff !important
+    }
+    .inner-banner-content {
+        padding: 150px 0 58px;
+    }
+    .responsive-table {
+        overflow: auto !important;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .banner-content {
+        width: 500px;
+    }
+    .banner-content h2 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .banner-content h1 {
+        font-size: 48px;
+    }
+    .banner-content span {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+    .main-heading {
+        font-size: 30px;
+    }
+    .ft-links {
+        margin-top: 15px;
+    }
+    .hero-banner {
+        height: 640px;
+    }
+    .inner-banner-content h1 {
+        font-size: 32px;
+        color: #fff !important
+    }
+    .address-cont a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:567px) {
+    .banner-content {
+        width: 440px;
+    }
+    .banner-content h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .banner-content h1 {
+        font-size: 40px;
+    }
+    .hero-banner {
+        height: 550px;
+    }
+    .banner-content {
+        bottom: 50px;
+    }
+    .registration-form .col-xs-6 {
+        width: 100%;
+    }
+    .inner-banner-content h1 {
+        font-size: 30px;
+    }
+    .padd-60 {
+        padding: 40px 0;
+    }
+    .inner-banner-content {
+        padding: 130px 0 40px;
+    }
+    .address-cont .col-md-4.col-xs-6 {
+        width: 100%;
+    }
+    .address-cont .col-thumb {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .hero-banner {
+        height: 450px;
+    }
+    .banner-content {
+        width: 292px;
+        padding: 25px;
+    }
+    .banner-content h1 {
+        font-size: 34px;
+    }
+    .banner-content h2 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .banner-content span {
+        font-size: 24px;
+    }
+    .banner-content .cta-btn {
+        font-size: 16px;
+        padding: 0 29px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .padd-60 {
+        padding: 40px 0
+    }
+    .cu-address span {
+        width: 200px;
+    }
+    .footer-blcok {
+        padding: 30px;
+    }
+    .university-logo ul li img {
+        margin-bottom: 15px;
+    }
+    .navbar-brand img {
+        height: 40px;
+        width: auto;
+        margin-right: 5px;
+    }
+    .navbar-brand img:first-child {
+        height: 45px;
+    }
+    .navbar-toggle {
+        right: 15px;
+        top: 23px;
+    }
+    .pr-0 {
+        padding-right: 15px;
+    }
+    .pl-0 {
+        padding-left: 15px;
+    }
+    .about-event-detail {
+        padding: 20px 0 !important
+    }
+}
