@@ -1,5 +1,5 @@
 (() => {
-  const VALID_TOKEN = "AIPTS2026"; 
+  const VALID_TOKEN = "AIPTS___2026"; 
 
   const params = new URLSearchParams(window.location.search);
   const token = params.get("access");
@@ -7,7 +7,7 @@
   if (token !== VALID_TOKEN) {
     document.documentElement.innerHTML = `
       <head>
-        <title>Access Restricted</title>
+        <title>Currently Under Maintaince</title>
         <style>
           body {
             margin: 0;
